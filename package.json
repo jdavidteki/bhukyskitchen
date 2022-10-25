@@ -1,5 +1,5 @@
 {
-  "homepage": "https://www.bhukyskitchen.com/",
+  "homepage": "https://jdavidteki.github.io/bhukyskitchen",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "concurrently \"expo start --web\" \"sass --watch .\"",
