@@ -16,6 +16,23 @@ class Firebase {
     })
   }
 
+  postChats = (seller, buyer, message, productId, senderID) => {
+    return new Promise(resolve => {
+      firebase.database().
+      ref('/chats/' + seller + '/' + productId + '/' + buyer + '/').
+      push({
+        content: message,
+        timestamp: Date.now(),
+        uid: senderID,
+      }).
+      then(() => {
+        resolve(true)
+      }).catch(error =>{
+        resolve({})
+      })
+    })
+  }
+
   storage = () => {
     return firebase.storage()
   }

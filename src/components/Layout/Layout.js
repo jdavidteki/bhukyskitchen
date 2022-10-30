@@ -4,8 +4,7 @@ import Header  from "../Header/Header.js";
 import HomePage from "../HomePage/HomePage.js"
 import PurchaseReel from "../PurchaseReel/PurchaseReel.js"
 import Orders from "../Orders/Orders.js"
-import RimiCard from "../RimiCard/RimiCard.js"
-import MeCards from "../MeCards/MeCards.js"
+import Messages from "../Messages/Messages.js"
 import Admin from "../Admin/Admin.js"
 import AboutMe from "../AboutMe/AboutMe.js"
 
@@ -61,6 +60,9 @@ class Layout extends Component{
                 }
                 {this.state.pageName == "admin" &&
                     <Admin changePage={this.changePage}/>
+                }
+                {this.state.pageName == "messages" &&
+                    <Messages changePage={this.changePage}/>
                 }
             </div>
             <div className="Layout-footer">

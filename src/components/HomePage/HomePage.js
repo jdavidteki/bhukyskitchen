@@ -73,9 +73,9 @@ class ConnectedHomePage extends Component{
 
     this.setState({orderId: orderId},
       () => {
-        if (orderId == "5357"){
+        if (orderId == "1"){
           this.props.history.push({
-            pathname: `/admin/5357`
+            pathname: `/admin/1`
           });
         }
         else if (orderId.length == 0){

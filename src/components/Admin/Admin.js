@@ -159,7 +159,7 @@ class ConnectedAdmin extends Component {
 
     adminLogIn(){
         var tenure = prompt("Please enter master password to continue", "");
-        if (tenure != null && tenure == "5357") {
+        if (tenure != null && tenure == "1") {
             this.setState({adminLoggedIn: true})
         }else{
           alert("you are a liar and a fraud!!!")
