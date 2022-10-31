@@ -62,7 +62,7 @@ class ConnectedUploadSeacherBck extends Component {
                 order_id: orderId
             };
 
-            emailjs.send('service_jdguftl', 'template_z19ojwr', templateParams, 'VSKnf4Vspvt3LgOiz')
+            emailjs.send('service_yn2l3x8', 'template_nnb32k5', templateParams, 'VSKnf4Vspvt3LgOiz')
             .then( (response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 this.setState({errorMsg: "video snippet email sent to" + val.emailAddress})

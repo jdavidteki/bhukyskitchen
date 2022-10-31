@@ -76,7 +76,7 @@ class ConnectedOrders extends Component {
                 <div className="Orders-orderThings-bottom">. .</div>
               </div>
               <div className="Orders-orderThings">
-                <div className="Orders-orderThings-top">Reel Owner</div>
+                <div className="Orders-orderThings-top">Owner</div>
                 <div className="Orders-orderThings-mid">
                   {this.state.lastName}, {this.state.firstName}
                 </div>
@@ -131,7 +131,7 @@ class ConnectedOrders extends Component {
             )}
             {this.state.reelPurpose && (
               <div className="Orders-infoCard">
-                <div className="Orders-infoCard-title">Reel Purpose</div>
+                <div className="Orders-infoCard-title">Add-Ons</div>
                 <div className="Orders-infoCard-infoDetails">{this.state.reelPurpose}</div>
               </div>
             )}

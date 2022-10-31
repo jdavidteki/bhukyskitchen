@@ -26,6 +26,15 @@ class ConnectedHomePage extends Component{
   int3 = null
 
   componentDidMount(){
+    //hack: use this to fix github pages doing ?/ on pages
+    if (window.location.href.includes("?/")){
+      let actualDestination = window.location.href.split("?/")[1]
+
+      this.props.history.push({
+        pathname: "/" + actualDestination
+      });
+    }
+
     setTimeout(() => {
       document.getElementById("homePageGreeting").classList.add('HomePage-animategreeting');
     }, 500)
@@ -107,7 +116,7 @@ class ConnectedHomePage extends Component{
         </div>
         <div className="HomePage-container">
           <div className="HomePage-greeting" id="homePageGreeting">
-            <h1>Welcome, I am Funke, Bhuky's Assistant</h1>
+            <h1>Welcome! I am Lola, Bhuky's Assistant</h1>
             <h3>How may I help you?</h3>
           </div>
           <div className="HomePage-options">

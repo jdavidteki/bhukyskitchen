@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/bhukyskitchen/static/js/app.9ecd718e.chunk.js",
-    "app.js.map": "/bhukyskitchen/static/js/app.9ecd718e.chunk.js.map",
+    "app.js": "/bhukyskitchen/static/js/app.e40ebb89.chunk.js",
+    "app.js.map": "/bhukyskitchen/static/js/app.e40ebb89.chunk.js.map",
     "runtime~app.js": "/bhukyskitchen/static/js/runtime~app.8f2c675d.js",
     "runtime~app.js.map": "/bhukyskitchen/static/js/runtime~app.8f2c675d.js.map",
-    "static/js/2.4dc62248.chunk.js": "/bhukyskitchen/static/js/2.4dc62248.chunk.js",
-    "static/js/2.4dc62248.chunk.js.map": "/bhukyskitchen/static/js/2.4dc62248.chunk.js.map",
+    "static/js/2.0f679add.chunk.js": "/bhukyskitchen/static/js/2.0f679add.chunk.js",
+    "static/js/2.0f679add.chunk.js.map": "/bhukyskitchen/static/js/2.0f679add.chunk.js.map",
     "favicon-16.png": "/bhukyskitchen/favicon-16.png",
     "favicon-32.png": "/bhukyskitchen/favicon-32.png",
     "favicon.ico": "/bhukyskitchen/favicon.ico",
@@ -13,7 +13,7 @@
     "manifest.json": "/bhukyskitchen/manifest.json",
     "serve.json": "/bhukyskitchen/serve.json",
     "service-worker.js.map": "/bhukyskitchen/service-worker.js.map",
-    "static/js/2.4dc62248.chunk.js.LICENSE.txt": "/bhukyskitchen/static/js/2.4dc62248.chunk.js.LICENSE.txt",
+    "static/js/2.0f679add.chunk.js.LICENSE.txt": "/bhukyskitchen/static/js/2.0f679add.chunk.js.LICENSE.txt",
     "static/media/cashappIcon.png": "/bhukyskitchen/static/media/cashappIcon.bb26a2e9.png",
     "static/media/fancybox_loading.gif": "/bhukyskitchen/static/media/fancybox_loading.78a563f0.gif",
     "static/media/fancybox_loading@2x.gif": "/bhukyskitchen/static/media/fancybox_loading@2x.d8f0a972.gif",
@@ -24,7 +24,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.8f2c675d.js",
-    "static/js/2.4dc62248.chunk.js",
-    "static/js/app.9ecd718e.chunk.js"
+    "static/js/2.0f679add.chunk.js",
+    "static/js/app.e40ebb89.chunk.js"
   ]
 }

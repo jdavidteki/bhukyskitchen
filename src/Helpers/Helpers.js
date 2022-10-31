@@ -44,16 +44,24 @@ export function GetSvgIcon(iconName, fillColor) {
 }
 
 export function GetSelectedLevelOptionAmount(value){
-    if (value == "Simple"){
-        return "10"
+    if (value == "Friendsgiving Package"){
+        return "250"
     }
 
-    if (value == "Medium"){
-        return "15"
+    if (value == "Family Dinner"){
+        return "430"
     }
 
-    if (value == "Professional"){
-        return "30"
+    if (value == "Get-together Package"){
+        return "880"
+    }
+
+    if (value == "Owanbe Package"){
+        return "1,200"
+    }
+
+    if (value == "Amala Platter"){
+        return "350"
     }
 }
 

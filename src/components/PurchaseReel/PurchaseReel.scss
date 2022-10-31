@@ -68,10 +68,6 @@
         }
     }
 
-    &-name{
-
-    }
-
     &-levelOptions.PurchaseReel-eachSection{
         background-color: white;
     }
@@ -80,6 +76,10 @@
     {
         margin: 8px;
         color: $gray-3;
+
+        h3{
+            font-weight: bold;
+        }
     }
 
     &-stripePayment
@@ -153,5 +153,10 @@
     ._1ceqH ._2fG9h
     {
         padding-top: 0;
+    }
+
+    ._1Pz2d._37kfa
+    {
+        display: none;
     }
 }

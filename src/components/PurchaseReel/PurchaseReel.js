@@ -44,23 +44,23 @@ class ConnectedPurchaseReel extends Component {
       },
 
       purposeOptions: [
-        { name: "Birthday", id: 1 },
-        { name: "Wedding", id: 2 },
-        { name: "Bridal Shower", id: 3 },
-        { name: "Graduation", id: 4 },
-        { name: "Gender Reveal", id: 5 },
+        { name: "Half tray peppered Ponmo $150", id: 1 },
+        { name: "Zobo $5 per bottle ", id: 2 },
+        { name: "Half tray asun $150", id: 3 },
+        { name: "Half tray Ayamase $150", id: 4 },
+        { name: "White rice 1 $30", id: 5 },
+        { name: "White rice 2 $60", id: 6 },
+        { name: "Ofada Elewe $5 per wrap", id: 7 },
+        { name: "Half tray plaintain $50", id: 8 },
+        { name: "Grilled fish platter $40", id: 9 },
       ],
 
       levelOptions: [
-        { name: "Simple", id: 1 },
-        { name: "Medium", id: 2 },
-        { name: "Professional", id: 3 },
-      ],
-
-      durationOption: [
-        { name: "30secs", id: 1 },
-        { name: "1min", id: 2 },
-        { name: "2mins", id: 3 },
+        { name: "Friendsgiving Package", id: 1 },
+        { name: "Family Dinner", id: 2 },
+        { name: "Get-together Package", id: 3 },
+        { name: "Owanbe Package", id: 4 },
+        { name: "Amala Platter", id: 5 },
       ],
     };
   }
@@ -128,16 +128,13 @@ class ConnectedPurchaseReel extends Component {
 			audioRecorded = true
 		}else{
 			if(this.state.levelOptions == ""){
-				errors += " You didn't select a level options preference \n"
+				errors += " You didn't select an item preference \n"
 			}
 
 			if(this.state.reelPurpose == ""){
-				errors += " You did not enter purpose of the reel \n"
+				errors += " You did not enter an add-on \n"
 			}
 
-			if(this.state.reelDuration == ""){
-				errors += " You did not enter duration of the reel \n"
-			}
 		}
 
 		this.setState({errorMsg: errors})
@@ -155,6 +152,7 @@ class ConnectedPurchaseReel extends Component {
 				reelSampleLink: this.state.reelSampleLink,
         dueDateSelected: this.state.dueDateSelected.toString().substring(0, 16),
 				selectedLevelOption: this.state.selectedLevelOption,
+        orderAudioURL: "",
 			}
 
       if(audioRecorded){
@@ -181,7 +179,7 @@ class ConnectedPurchaseReel extends Component {
     let message =  `
       We have received your order (${orderId}) and it is in the works
 
-      In the meantime, relax, listen to some Burna Boy, and your video will be ready as soon as possible.
+      In the meantime, relax, listen to some Burna Boy, and your food will be ready as soon as possible.
 
       You can follow the progress of your reel here: https://www.bhukyskitchen.com/orders/${orderId}
     `
@@ -195,7 +193,7 @@ class ConnectedPurchaseReel extends Component {
       order_id: orderId
     };
 
-    emailjs.send('service_jdguftl', 'template_z19ojwr', templateParams, 'VSKnf4Vspvt3LgOiz')
+    emailjs.send('service_yn2l3x8', 'template_nnb32k5', templateParams, 'VSKnf4Vspvt3LgOiz')
     .then(function(response) {
       console.log('SUCCESS!', response.status, response.text);
     }, (error) => {
@@ -268,8 +266,11 @@ class ConnectedPurchaseReel extends Component {
                 fitToView={true}
               />
               <div className="PurchaseReel-videoDescription">
-                <h3>Professional: $30</h3> very easy, not too many transitions.
-                straightforward. click image to watch
+                <h3>Friendsgiving Package: $250</h3>
+                  Half pan jollof rice.
+                  Half pan fried rice.
+                  10 pcs turkey wings.
+                  Nigeria coleslaw/ Pasta Salad.
               </div>
             </div>
             <div className="PurchaseReel-galleryEntry">
@@ -280,8 +281,13 @@ class ConnectedPurchaseReel extends Component {
                 fitToView={true}
               />
               <div className="PurchaseReel-videoDescription">
-                <h3>Medium: $15</h3> very easy, not too many transitions.
-                straightforward. click image to watch
+                <h3>Family Dinner: $430</h3>
+                  Half tray jollof rice.
+                  Half tray fried rice.
+                  10 pcs turkey wings.
+                  Half tray efo-riro/ Egusi.
+                  10 wraps of poundo yam.
+                  Nigerian coleslaw / Pasta Salad.
               </div>
             </div>
             <div className="PurchaseReel-galleryEntry">
@@ -293,8 +299,50 @@ class ConnectedPurchaseReel extends Component {
                 autoplay
               />
               <div className="PurchaseReel-videoDescription">
-                <h3>Simple: $10</h3> very easy, not too many transitions.
-                straightforward. click image to watch
+                <h3>Get-together Package: $880</h3>
+                  1 tray jollof Rice.
+                  1 tray fried rice.
+                  1 tray efo / egusi Soup.
+                  15-20 wraps poundo yam.
+                  Half tray Gizzdodo.
+                  1tray chicken/ Turkey wings.
+                  Half tray Nigerian Coleslaw/Pasta salad.
+              </div>
+            </div>
+            <div className="PurchaseReel-galleryEntry">
+              <FancyVideo
+                source="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-d7606.appspot.com/o/466D8CFA-5B4B-41A2-967E-39C79E982A1B.mov?alt=media&token=7941c2d7-0312-4c98-b5fa-141ff9f90fdf"
+                poster="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/menuImages%2Fzobo.png?alt=media&token=21483e12-4d25-4c15-93e9-960a0d3828fa"
+                id={"sintel1"}
+                fitToView={true}
+                autoplay
+              />
+              <div className="PurchaseReel-videoDescription">
+                <h3>Owanbe Package: $1,200</h3>
+                  1 tray jollof rice.
+                  1 tray fried rice.
+                  1 tray efo / egusi soup.
+                  15-20 wraps poundo yam.
+                  6 Grilled tilapia with fried plaintain and fried yam.
+                  1 tray chicken/ Turkey.
+                  Half tray Asun(spicy goat meat).
+                  Half tray Nigerian Coleslaw/ pasta salad.
+              </div>
+            </div>
+            <div className="PurchaseReel-galleryEntry">
+              <FancyVideo
+                source="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-d7606.appspot.com/o/466D8CFA-5B4B-41A2-967E-39C79E982A1B.mov?alt=media&token=7941c2d7-0312-4c98-b5fa-141ff9f90fdf"
+                poster="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/menuImages%2Fzobo.png?alt=media&token=21483e12-4d25-4c15-93e9-960a0d3828fa"
+                id={"sintel1"}
+                fitToView={true}
+                autoplay
+              />
+              <div className="PurchaseReel-videoDescription">
+                <h3>Amala Platter: $350</h3>
+                  Buka Stew.
+                  Ewedu.
+                  Gbegiri.
+                  Amala 14 wraps.
               </div>
             </div>
           </div>
@@ -303,23 +351,20 @@ class ConnectedPurchaseReel extends Component {
             selectedValues={this.state.selectedValue} // Preselected value to persist in dropdown
             onSelect={(e) => this.setState({selectedLevelOption: e[0].name})} // Function will trigger on select event
             displayValue="name" // Property name to display in the dropdown options
-            placeholder="click here to select pricing"
-						selectionLimit="1"
+            placeholder="click here to select package"
             closeOnSelect={true}
-            singleSelect={true}
           />
         </div>
 
         <div className="PurchaseReel-purposeOptions PurchaseReel-eachSection">
-          <h3>* Select the purpose of this reel</h3>
+          <h3>* Select an Add-On</h3>
           <Multiselect
             options={this.state.purposeOptions} // Options to display in the dropdown
             selectedValues={this.state.selectedValue} // Preselected value to persist in dropdown
             onSelect={(e) => this.setState({reelPurpose: e[0].name})} // Function will trigger on select event
             displayValue="name" // Property name to display in the dropdown options
-            placeholder="click to select reel purpose"
+            placeholder="click to select an add-on"
             closeOnSelect={true}
-            singleSelect={true}
           />
         </div>
 
@@ -333,25 +378,11 @@ class ConnectedPurchaseReel extends Component {
           />
         </div>
 
-        <div className="PurchaseReel-duration PurchaseReel-eachSection">
-          <h3>* How long do you want your reel to be?</h3>
-          <Multiselect
-            options={this.state.durationOption} // Options to display in the dropdown
-            selectedValues={this.state.selectedValue} // Preselected value to persist in dropdown
-            onSelect={(e) => this.setState({reelDuration: e[0].name})} // Function will trigger on select event
-            displayValue="name" // Property name to display in the dropdown options
-            placeholder="Select Duration"
-						selectionLimit="1"
-            closeOnSelect={true}
-            singleSelect={true}
-          />
-        </div>
-
         <div className="PurchaseReel-sampleVideo PurchaseReel-eachSection">
-          <h3>* Is there a sample video or reel Gloria can look at?</h3>
+          <h3>* Is there something else you need that we haven't covered?</h3>
           <TextField
             value={this.state.reelSampleLink}
-            placeholder="link to sample reel"
+            placeholder="enter brief note here"
             onChange={(e) => {
               this.setState({ reelSampleLink: e.target.value });
             }}
