@@ -217,5 +217,10 @@
   font-size: xx-small;
   color: #b00000;
 }
+.HomePage-cashAppField {
+  font-size: xx-small;
+  color: #6b7c93;
+  margin-top: 16px;
+}
 
 /*# sourceMappingURL=Homepage.css.map */
