@@ -141,7 +141,7 @@ class ConnectedHomePage extends Component{
             </div>
             <div className="HomePage-option" onClick={() => location.href = `https://cash.app/$mhizbee/10`}>
               I want to make Cash App Payment
-              <span className="HomePage-errorMsg">**Please ensure to enter your order ID into CashApp's 'For:' field.</span>
+              <span className="HomePage-cashAppField">**Please ensure to enter your order ID into CashApp's 'For:' field.</span>
             </div>
             <div className="HomePage-option" onClick={() => location.href = `https://www.instagram.com/bhukys_kitchen/?hl=en`}>
               I want to feed my eyes
