@@ -46,7 +46,7 @@ class Layout extends Component{
                 <Header changePage={this.changePage}/>
             </div>
             <div className="Layout-content" id="layoutContent">
-                {this.state.pageName == "bhukyskitchen" &&
+                {this.state.pageName == "basiskitchen" &&
                     <HomePage changePage={this.changePage}/>
                 }
                 {this.state.pageName == "orders" &&

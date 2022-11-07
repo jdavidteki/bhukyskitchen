@@ -133,7 +133,7 @@ class ConnectedMessages extends Component {
   };
 
   getSellerName = () => {
-    this.setState({ sellerName: "bhukys kitchen" });
+    this.setState({ sellerName: "Basiss kitchen" });
   };
 
   formatTime(timestamp) {

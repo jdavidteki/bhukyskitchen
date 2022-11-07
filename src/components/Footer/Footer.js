@@ -10,7 +10,7 @@ class Footer extends Component {
     super(props);
 
     this.state = {
-      catSelected: "bhukyskitchen",
+      catSelected: "basiskitchen",
       findMeIconHover: "#6c47db",
     }
   }
@@ -20,11 +20,11 @@ class Footer extends Component {
       <div className={"Footer-default"}>
         <div className="frame-142">
           <div className="Footer-greeting">
-            Copyright Bhuky's Kitchen
+            Copyright Basis's Kitchen
           </div>
           <div className="frame-140">
-            <a href="https://www.twitter.com/bhukyskitchen/"  target="_blank"><img className="twitter-negative" src={twitterIcon} /></a>
-            <a href="https://www.instagram.com/bhukyskitchen/"  target="_blank"><img className="instagram-negative" src={instagramIcon} /></a>
+            <a href="https://www.twitter.com/basis_kitchen/"  target="_blank"><img className="twitter-negative" src={twitterIcon} /></a>
+            <a href="https://www.instagram.com/basis_kitchen/"  target="_blank"><img className="instagram-negative" src={instagramIcon} /></a>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bhukyskitchen",
-    "slug": "bhukyskitchen",
+    "name": "basiskitchen",
+    "slug": "basiskitchen",
     "entryPoint": "./index.js",
     "platforms": [
       "ios",

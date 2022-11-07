@@ -156,12 +156,12 @@ class ConnectedPurchaseReel extends Component {
 			}
 
       if(audioRecorded){
-        let audioURL = `https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/audioFolder%2F${orderId}.mp3?alt=media&token=22ca9d49-2743-42cf-9ebd-738e307ba023`
+        let audioURL = `https://firebasestorage.googleapis.com/v0/b/basiskitchen-2a524.appspot.com/o/audioFolder%2F${orderId}.mp3?alt=media&token=22ca9d49-2743-42cf-9ebd-738e307ba023`
         reel.orderAudioURL = audioURL
 				this.handleAudioUpload(orderId)
 			}
 
-			Firebase.createbhukyskitchenOrder(reel)
+			Firebase.createbasiskitchenOrder(reel)
 			.then(() =>{
         this.sendEmail(orderId)
 
@@ -181,12 +181,12 @@ class ConnectedPurchaseReel extends Component {
 
       In the meantime, relax, listen to some Burna Boy, and your food will be ready as soon as possible.
 
-      You can follow the progress of your reel here: https://www.bhukyskitchen.com/orders/${orderId}
+      You can follow the progress of your reel here: https://www.basiskitchen.com/orders/${orderId}
     `
 
     var templateParams = {
       to_name: this.state.firstName,
-      from_name: 'bhukyskitchen',
+      from_name: 'basiskitchen',
       message: message,
       recipient_email: this.state.emailAddress,
       sender_email: "jesuyedd@gmail.com",
@@ -241,7 +241,7 @@ class ConnectedPurchaseReel extends Component {
         <div className="PurchaseReel-voiceNote PurchaseReel-eachSection">
           <h3>
             Leave us a voicenote with all the answers from the questions below
-            so you don't have to answer the questions. Then hit pay and the
+            so you don't have to answer the questions. Then hit pay at the
             bottom of this page
           </h3>
 
@@ -260,8 +260,8 @@ class ConnectedPurchaseReel extends Component {
           <div className="PurchaseReel-levelOptionsGallery">
 						<div className="PurchaseReel-galleryEntry">
               <FancyVideo
-                source="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/menuVideos%2F72695374727.mp4?alt=media&token=c997364e-eb40-4192-b8c0-30a2d2aa153f"
-                poster="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/menuImages%2Ffriedrice.png?alt=media&token=c4ae131b-aed9-41e5-834b-083348e9e4f1"
+                source="https://firebasestorage.googleapis.com/v0/b/basiskitchen-2a524.appspot.com/o/menuVideos%2F72695374727.mp4?alt=media&token=c997364e-eb40-4192-b8c0-30a2d2aa153f"
+                poster="https://firebasestorage.googleapis.com/v0/b/basiskitchen-2a524.appspot.com/o/menuImages%2Ffriedrice.png?alt=media&token=c4ae131b-aed9-41e5-834b-083348e9e4f1"
                 id={"sintel3"}
                 fitToView={true}
               />
@@ -275,8 +275,8 @@ class ConnectedPurchaseReel extends Component {
             </div>
             <div className="PurchaseReel-galleryEntry">
               <FancyVideo
-                source="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/menuVideos%2F45381994989.mp4?alt=media&token=ec45452c-4ba6-4987-a3c2-249938b0b712"
-                poster="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/menuImages%2Fstew-2.png?alt=media&token=877ed329-9473-4422-bba5-1f3ff3559578"
+                source="https://firebasestorage.googleapis.com/v0/b/basiskitchen-2a524.appspot.com/o/menuVideos%2F45381994989.mp4?alt=media&token=ec45452c-4ba6-4987-a3c2-249938b0b712"
+                poster="https://firebasestorage.googleapis.com/v0/b/basiskitchen-2a524.appspot.com/o/menuImages%2Fstew-2.png?alt=media&token=877ed329-9473-4422-bba5-1f3ff3559578"
                 id={"sintel2"}
                 fitToView={true}
               />
@@ -292,8 +292,8 @@ class ConnectedPurchaseReel extends Component {
             </div>
             <div className="PurchaseReel-galleryEntry">
               <FancyVideo
-                source="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-d7606.appspot.com/o/466D8CFA-5B4B-41A2-967E-39C79E982A1B.mov?alt=media&token=7941c2d7-0312-4c98-b5fa-141ff9f90fdf"
-                poster="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/menuImages%2Fzobo.png?alt=media&token=21483e12-4d25-4c15-93e9-960a0d3828fa"
+                source="https://firebasestorage.googleapis.com/v0/b/basiskitchen-d7606.appspot.com/o/466D8CFA-5B4B-41A2-967E-39C79E982A1B.mov?alt=media&token=7941c2d7-0312-4c98-b5fa-141ff9f90fdf"
+                poster="https://firebasestorage.googleapis.com/v0/b/basiskitchen-2a524.appspot.com/o/menuImages%2Fzobo.png?alt=media&token=21483e12-4d25-4c15-93e9-960a0d3828fa"
                 id={"sintel1"}
                 fitToView={true}
                 autoplay
@@ -311,8 +311,8 @@ class ConnectedPurchaseReel extends Component {
             </div>
             <div className="PurchaseReel-galleryEntry">
               <FancyVideo
-                source="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-d7606.appspot.com/o/466D8CFA-5B4B-41A2-967E-39C79E982A1B.mov?alt=media&token=7941c2d7-0312-4c98-b5fa-141ff9f90fdf"
-                poster="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/menuImages%2Fzobo.png?alt=media&token=21483e12-4d25-4c15-93e9-960a0d3828fa"
+                source="https://firebasestorage.googleapis.com/v0/b/basiskitchen-d7606.appspot.com/o/466D8CFA-5B4B-41A2-967E-39C79E982A1B.mov?alt=media&token=7941c2d7-0312-4c98-b5fa-141ff9f90fdf"
+                poster="https://firebasestorage.googleapis.com/v0/b/basiskitchen-2a524.appspot.com/o/menuImages%2Fzobo.png?alt=media&token=21483e12-4d25-4c15-93e9-960a0d3828fa"
                 id={"sintel1"}
                 fitToView={true}
                 autoplay
@@ -331,8 +331,8 @@ class ConnectedPurchaseReel extends Component {
             </div>
             <div className="PurchaseReel-galleryEntry">
               <FancyVideo
-                source="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-d7606.appspot.com/o/466D8CFA-5B4B-41A2-967E-39C79E982A1B.mov?alt=media&token=7941c2d7-0312-4c98-b5fa-141ff9f90fdf"
-                poster="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-2a524.appspot.com/o/menuImages%2Fzobo.png?alt=media&token=21483e12-4d25-4c15-93e9-960a0d3828fa"
+                source="https://firebasestorage.googleapis.com/v0/b/basiskitchen-d7606.appspot.com/o/466D8CFA-5B4B-41A2-967E-39C79E982A1B.mov?alt=media&token=7941c2d7-0312-4c98-b5fa-141ff9f90fdf"
+                poster="https://firebasestorage.googleapis.com/v0/b/basiskitchen-2a524.appspot.com/o/menuImages%2Fzobo.png?alt=media&token=21483e12-4d25-4c15-93e9-960a0d3828fa"
                 id={"sintel1"}
                 fitToView={true}
                 autoplay

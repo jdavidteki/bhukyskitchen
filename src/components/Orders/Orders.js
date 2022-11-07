@@ -110,7 +110,7 @@ class ConnectedOrders extends Component {
                 <div className="Orders-infoCard-infoDetails">
                   <FancyVideo
                     source={this.state.snippetVideoURL}
-                    poster="https://firebasestorage.googleapis.com/v0/b/bhukyskitchen-d7606.appspot.com/o/images%2FScreen%20Shot%202022-10-18%20at%202.38.47%20PM.png?alt=media&token=1f64edde-6b4a-499e-8e93-83edb5d5f67b"
+                    poster="https://firebasestorage.googleapis.com/v0/b/basiskitchen-d7606.appspot.com/o/images%2FScreen%20Shot%202022-10-18%20at%202.38.47%20PM.png?alt=media&token=1f64edde-6b4a-499e-8e93-83edb5d5f67b"
                     id={"sintel3"}
                     fitToView={true}
                   />
@@ -155,7 +155,7 @@ class ConnectedOrders extends Component {
                 </div>
               </div>
             )}
-            <div className="Orders-infoCard Orders-cashApp" onClick={() => location.href = `https://cash.app/$bhukyskitchen/${GetSelectedLevelOptionAmount(this.state.selectedLevelOption)}`}>
+            <div className="Orders-infoCard Orders-cashApp" onClick={() => location.href = `https://cash.app/$basiskitchen/${GetSelectedLevelOptionAmount(this.state.selectedLevelOption)}`}>
               <div className="Orders-infoCard-title">Make Payment</div>
               <div className="Orders-infoDetails">
                 <img className="Orders-cashApp-Logo" src={cashappLogo} alt="cashapp.logo"/>
@@ -165,7 +165,7 @@ class ConnectedOrders extends Component {
         </div>
       );
     } else {
-      return <div className="l-container">bhukyskitchening...</div>;
+      return <div className="l-container">basiskitchening...</div>;
     }
   }
 }

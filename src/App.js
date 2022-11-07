@@ -21,8 +21,8 @@ class App extends Component {
       <div className="App">
         <div className="App-content">
           <Switch>
-            <Route path="/" exact component={() => (<Layout pageName="bhukyskitchen" />)}/>
-            <Route path="/bhukyskitchen"  exact component={() => (<Layout pageName="bhukyskitchen" />)}/>
+            <Route path="/" exact component={() => (<Layout pageName="basiskitchen" />)}/>
+            <Route path="/basiskitchen"  exact component={() => (<Layout pageName="basiskitchen" />)}/>
             <Route path="/rimicard/:id" exact component={() => (<Layout pageName="rimicard" />)}/>
             <Route path="/purchasereel" exact component={() => (<Layout pageName="purchasereel" />)}/>
             <Route path="/orders/:id" exact component={() => (<Layout pageName="orders" />)}/>

@@ -131,7 +131,7 @@ class Firebase {
     })
   }
 
-  createbhukyskitchenOrder = (reel) => {
+  createbasiskitchenOrder = (reel) => {
     return new Promise(resolve => {
       firebase.database()
       .ref('/orders/' + reel.id + '/')

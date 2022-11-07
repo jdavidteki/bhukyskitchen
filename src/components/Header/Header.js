@@ -10,7 +10,7 @@ class Header extends Component{
     super(props);
 
     this.state = {
-      catSelected: "bhukyskitchen",
+      catSelected: "basiskitchen",
       findMeIconHover: "#f5ab3c",
     }
   }
@@ -22,7 +22,7 @@ class Header extends Component{
       meCardsIconHover: "black",
     })
 
-    if(catSelected == "bhukyskitchen"){
+    if(catSelected == "basiskitchen"){
       this.setState({ findMeIconHover: "#f5ab3c"})
     }else if(catSelected == "aboutme"){
       this.setState({ createIconHover: "#f5ab3c"})
@@ -36,7 +36,7 @@ class Header extends Component{
   componentDidMount(){
     let path = window.location.pathname;
     this.setState({
-      findMeIconHover: path.includes("bhukyskitchen/") || path.includes("rimicard") ? "#f5ab3c" : 'black',
+      findMeIconHover: path.includes("basiskitchen/") || path.includes("rimicard") ? "#f5ab3c" : 'black',
       createIconHover: path.includes("aboutme/") ? "#f5ab3c" : 'black',
       meCardsIconHover: path.includes("mecards/") ? "#f5ab3c" : 'black',
     })
@@ -45,13 +45,13 @@ class Header extends Component{
   render(){
     return (
       <div className="Header">
-        <div className="Header-logoWrapper" onClick={() => this.handleCategoryClick("bhukyskitchen")}>
-          <img className="Header-logo" src={logo} alt="bhukyskitchen.me.logo" />
+        <div className="Header-logoWrapper" onClick={() => this.handleCategoryClick("basiskitchen")}>
+          <img className="Header-logo" src={logo} alt="basiskitchen.me.logo" />
         </div>
         <div className="Header-mainMenu">
-          <div className="Header-mainMenu-item Header-icon" onClick={() => this.handleCategoryClick("bhukyskitchen")}>
+          <div className="Header-mainMenu-item Header-icon" onClick={() => this.handleCategoryClick("basiskitchen")}>
             {GetSvgIcon("findMeIcon", this.state.findMeIconHover)}
-            <span className="Header-img-title">bhukyskitchen!</span>
+            <span className="Header-img-title">basiskitchen!</span>
           </div>
           <div className="Header-mainMenu-item Header-icon" onClick={() => this.handleCategoryClick("aboutme")}>
             {GetSvgIcon("createIcon", this.state.createIconHover)}
