@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.4821317e.css",
-    "main.js": "/static/js/main.98980686.js",
-    "static/css/602.5a59323d.css": "/static/css/602.5a59323d.css",
-    "static/js/602.7a41cfbb.js": "/static/js/602.7a41cfbb.js",
+    "main.js": "/static/js/main.3fd05463.js",
+    "static/css/74.b6102f2f.css": "/static/css/74.b6102f2f.css",
+    "static/js/74.8b06974e.js": "/static/js/74.8b06974e.js",
     "static/media/logo.png": "/static/media/logo.03a7e5428884875f10d0.png",
     "static/media/bhukyherogif.gif": "/static/media/bhukyherogif.3ce1718ce95716881ea2.gif",
     "static/media/cashappIcon.png": "/static/media/cashappIcon.bb26a2e92715af75b98d.png",
@@ -19,14 +19,14 @@
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
     "main.4821317e.css.map": "/static/css/main.4821317e.css.map",
-    "main.98980686.js.map": "/static/js/main.98980686.js.map",
-    "602.5a59323d.css.map": "/static/css/602.5a59323d.css.map",
-    "602.7a41cfbb.js.map": "/static/js/602.7a41cfbb.js.map"
+    "main.3fd05463.js.map": "/static/js/main.3fd05463.js.map",
+    "74.b6102f2f.css.map": "/static/css/74.b6102f2f.css.map",
+    "74.8b06974e.js.map": "/static/js/74.8b06974e.js.map"
   },
   "entrypoints": [
-    "static/css/602.5a59323d.css",
-    "static/js/602.7a41cfbb.js",
+    "static/css/74.b6102f2f.css",
+    "static/js/74.8b06974e.js",
     "static/css/main.4821317e.css",
-    "static/js/main.98980686.js"
+    "static/js/main.3fd05463.js"
   ]
 }
