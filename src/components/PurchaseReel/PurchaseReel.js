@@ -4,7 +4,6 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
-import Multiselect from "multiselect-react-dropdown";
 import DatePicker from "react-datepicker";
 import { Recorder } from "react-voice-recorder";
 import validator from 'validator'

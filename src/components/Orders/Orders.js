@@ -133,14 +133,12 @@ class ConnectedOrders extends Component {
               <div className="Orders-infoCard-title">Order</div>
               <Cart fromOrderComponent={true} cart={this.state.cart ? JSON.parse(this.state.cart) : {}} /> 
             </div>
-            {this.state.statusLabel && (
-              <div className="Orders-infoCard Orders-statusValue" onClick={() => location.href = this.state.briefNote}>
-                <div className="Orders-infoCard-title">Order Status</div>
-                <div className="Orders-infoCard-infoDetails">
-                  {this.state.statusLabel}
-                </div>
+            <div className="Orders-infoCard Orders-statusValue" onClick={() => location.href = this.state.briefNote}>
+              <div className="Orders-infoCard-title">Note</div>
+              <div className="Orders-infoCard-infoDetails">
+                {this.state.briefNote}
               </div>
-            )}
+              </div>
             {this.state.orderAudioURL && (
               <div className="Orders-infoCard">
                 <div className="Orders-infoCard-title">Voice Note</div>
