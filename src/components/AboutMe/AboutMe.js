@@ -24,7 +24,9 @@ class AboutMe extends Component{
                     About Me
                 </h1>
                 <div className="AboutMe-desc">
-                    Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.
+                    My name is Bhuky! Nice to meet you. Cooking is my passion and I love to share my recipes with the world. I am a self-taught cook and I have been cooking for over 20 years.
+                    I have been cooking for my family and friends for years and I have always been asked to share my recipes. I have decided to share my recipes with the world and I hope you enjoy them as much as I do.
+                    Here you will find a variety of recipes from my family and friends. I hope you enjoy them as much as I do.
                 </div>
             </div>
         </div>

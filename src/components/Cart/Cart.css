@@ -135,142 +135,93 @@
   line-height: 13px;
 }
 
-.PurchaseReel {
+.cart {
+  position: fixed;
+  background-color: white;
+  height: 96px;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+  margin-left: auto;
+  top: 70px;
+  right: 0;
+  z-index: 9999;
+}
+
+.cart--visible {
+  transform: translateX(0);
+}
+
+.cart__header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
 }
-.PurchaseReel h2 {
-  font-weight: 300;
-  padding: 16px 8px;
-  margin-bottom: 32px;
-  border-radius: 4px;
-  background-color: #f1c87c;
-  color: #6b7c93;
+@media (max-width: 991px) {
+  .cart__header {
+    border-bottom: 0px;
+  }
 }
-.PurchaseReel h3 {
-  font-weight: 300;
-  font-size: medium;
+
+.cart__header h2 {
+  margin: 0;
+}
+
+.cart__close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
   position: relative;
   animation: swing 2s ease-in-out infinite;
 }
-.PurchaseReel #sintel3,
-.PurchaseReel #sintel2,
-.PurchaseReel #sintel1 {
-  position: relative;
+
+.cart__items {
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
 }
-.PurchaseReel-voiceNote {
-  padding-bottom: 32px;
-  border-bottom: 1px solid #999;
+
+.cart__items--visible {
+  max-height: 200px;
+  overflow-y: scroll;
 }
-.PurchaseReel-voiceNote h3 {
-  background-color: #f5ab3c;
-  padding: 8px;
-  margin-bottom: 0;
-  color: #555;
-}
-.PurchaseReel-eachSection {
-  margin: 16px 0;
-}
-.PurchaseReel-levelOptions {
-  display: flex;
-  flex-direction: column;
-}
-.PurchaseReel-levelOptionsGallery {
+
+.cart__item {
   display: flex;
   justify-content: space-between;
-  padding: 16px 0;
-  overflow-x: auto;
-}
-.PurchaseReel-galleryEntry {
-  width: 33.3333333333%;
-  min-width: 200px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 4px;
-  background-color: #f5ab3c;
-}
-.PurchaseReel-galleryEntry:not(:last-child) {
-  margin-right: 8px;
-}
-.PurchaseReel-levelOptions.PurchaseReel-eachSection {
-  background-color: white;
-}
-.PurchaseReel-videoDescription {
-  margin: 8px;
-  color: #555;
-}
-.PurchaseReel-videoDescription h3 {
-  font-weight: bold;
-}
-.PurchaseReel-stripePayment {
-  margin: 16px auto;
-  width: 90%;
-  background-color: #f1c87c;
-  padding: 24px;
-  border-radius: 4px;
-}
-@media (max-width: 767px) {
-  .PurchaseReel-stripePayment {
-    width: 90%;
-  }
-  .PurchaseReel-stripePayment .__PrivateStripeElement {
-    width: 270px;
-  }
-}
-.PurchaseReel-placeOrder {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
 }
-.PurchaseReel-placeOrder pre {
-  color: #b00000;
-  font-size: xx-small;
-  background-color: #defacf;
-  padding: 8px;
-  border-radius: 4px;
-}
-.PurchaseReel .styles_poster__1JohY {
-  height: 170px;
-  object-fit: cover;
-}
-.PurchaseReel .multiSelectContainer input {
-  width: 300px;
+
+.cart__item button {
+  background: none;
+  border: none;
+  font-size: 1rem;
   cursor: pointer;
 }
-.PurchaseReel ._1ceqH ._1lB9c {
-  display: none;
-}
-.PurchaseReel ._dt3-T._dt3-T,
-.PurchaseReel ._3bC73 {
-  background-color: #f1c87c;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-.PurchaseReel ._1ceqH ._1YOWG ._eV_dK {
-  text-align: center;
-}
-.PurchaseReel ._1ceqH ._1Yplu {
+
+.cart__total {
   display: flex;
-  justify-content: center;
-}
-.PurchaseReel ._1ceqH ._2fG9h {
-  padding-top: 0;
-}
-.PurchaseReel ._1Pz2d._37kfa {
-  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
 }
 
-@keyframes swing {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(1px);
-  }
-  100% {
-    transform: translateX(0);
-  }
+.cart__total p {
+  margin: 0;
 }
 
-/*# sourceMappingURL=PurchaseReel.css.map */
+/*# sourceMappingURL=Cart.css.map */

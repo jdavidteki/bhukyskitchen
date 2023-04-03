@@ -16,6 +16,8 @@
     h3{
         font-weight: $font-weight-light;
         font-size: medium;
+        position: relative;
+        animation: swing 2s ease-in-out infinite;
     }
 
     #sintel3,
@@ -135,7 +137,7 @@
     ._dt3-T._dt3-T,
     ._3bC73
     {
-        background-color: $brand-1;
+        background-color: $brand-secondary;
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
     }
@@ -160,3 +162,15 @@
         display: none;
     }
 }
+
+@keyframes swing {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(1px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

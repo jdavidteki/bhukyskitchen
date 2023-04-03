@@ -6,6 +6,8 @@ import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import UploadVideoSnippet from "../../components/UploadVideoSnippet/UploadVideoSnippet.js"
+import MenuItemsTable from "../../components/MenuItemsTable/MenuItemsTable.js"
+import Messages from "../../components/Messages/Messages.js"
 
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Admin.css"
@@ -23,43 +25,39 @@ const columns = [
     key: 'id',
     name: 'Order ID',
     sort: true,
-    editable: true,
+    editable: false,
 },{
-    key: 'statusLabel',
-    name: 'Status Label',
-    editable: true,
+    key: 'cart',
+    name: 'Cart',
+    editable: false,
+},{
+    key: 'dueDateSelected',
+    name: 'Due Date Selected',
+    editable: false,
 },{
     key: 'statusValue',
     name: 'Status Value',
     editable: true,
 },{
-    key: 'emailAddress',
-    name: 'Email Address',
-  }, {
+    key: 'briefNote',
+    name: 'Brief Note',
+    editable: false,
+},{
     key: 'firstName',
     name: 'First Name',
     sort: true,
-}, {
-    key: 'igname',
-    name: 'IG Name',
 },{
     key: 'lastName',
     name: 'Last Name',
 },{
-    key: 'reelDuration',
-    name: 'Reel Duration',
+    key: 'emailAddress',
+    name: 'Email Address',
 },{
-    key: 'reelPurpose',
-    name: 'Reel Purpose',
-},{
-    key: 'reelSampleLink',
-    name: 'Reel Sample Link',
+    key: 'igname',
+    name: 'IG Name',
 },{
     key: 'orderAudioURL',
     name: 'Order Audio URL',
-},{
-    key: 'selectedLevelOption',
-    name: 'Selected Level Option',
 },{
     key: 'snippetVideoURL',
     name: 'Snippet Video URL',
@@ -81,13 +79,12 @@ class ConnectedAdmin extends Component {
     };
 
     sendEmail(){
-        //TODO
-        // emailjs.send('service_jdguftl', 'template_z19ojwr', templateParams, 'VSKnf4Vspvt3LgOiz')
-    //     .then(function(response) {
-    //        console.log('SUCCESS!', response.status, response.text);
-    //     }, function(error) {
-    //        console.log('FAILED...', error);
-    //     });
+        emailjs.send('service_jdguftl', 'template_z19ojwr', templateParams, 'VSKnf4Vspvt3LgOiz')
+        .then(function(response) {
+           console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+           console.log('FAILED...', error);
+        });
     }
 
     componentDidMount(){
@@ -167,16 +164,6 @@ class ConnectedAdmin extends Component {
         }
     }
 
-    updateAnnotation(){
-        this.props.history.push({
-            pathname: "/annotationfixer/" + this.state.selectedOrdersIds[0],
-            state: {
-                lyrics: this.state.selectedOrderFirstName,
-                songId: this.state.selectedOrdersIds[0],
-            }
-        });
-    }
-
     onGridRowsUpdated = ({ fromRow, toRow, updated }) => {
         this.setState(state => {
           const filteredRows = state.filteredRows.slice();
@@ -246,27 +233,45 @@ class ConnectedAdmin extends Component {
                                     variant="outlined"
                                     color="primary"
                                     onClick={() => {
-                                        Firebase.updateSongInfo(this.state.selectedOrdersIds[0], this.state.updatingRow)
+                                        Firebase.updateOrderDetails(this.state.selectedOrdersIds[0], this.state.updatingRow)
                                     }}
                                 >
-                                    Save Update - ({this.state.selectedOrdersIds[0]})
+                                    Save Update
                                 </Button>
+                                {" "}
                                 {" "}
                                 <Button
                                     style={{ marginTop: 20, width: 200 }}
                                     variant="outlined"
                                     color="primary"
                                     onClick={() => {
-                                        this.updateAnnotation()
+                                        this.setState({ messageClient: true })
                                     }}
                                 >
-                                    Update Annotation - ({this.state.selectedOrdersIds[0]})
+                                    Message
                                 </Button>
                             </div>
                         )
                     }
                 </div>
-                <div className="Admin-UploadVideoSnippet">
+
+                {this.state.messageClient && (
+                    <div className="Admin-messageClient">
+                        <Messages
+                            orderId={this.state.selectedOrdersIds[0]}
+                            closeMessageClient={() => {
+                                this.setState({ messageClient: false });
+                            }}
+                        />
+                    </div>
+                )}
+
+                <div className="Admin-MenuItemsTable Admin-container">
+                    <h2>Menu Items Table</h2>
+                    <MenuItemsTable />
+                </div>
+                <div className="Admin-UploadVideoSnippet Admin-container">
+                    <h2>Upload Video Snippet</h2>
                     <UploadVideoSnippet />
                 </div>
             </div>

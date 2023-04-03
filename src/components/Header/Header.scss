@@ -2,15 +2,13 @@
 
 .Header{
     display: flex;
+    position: fixed;
     z-index: 9999;
     justify-content: space-between;
     padding: 16px 12px;
     border-bottom: 1px solid $gray-4;
-
-    @include bpgte(sm)
-    {
-        @include l-container;
-    }
+    background-color: white;
+    width: 100%;
 
     &-logo
     {

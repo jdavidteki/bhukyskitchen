@@ -1,0 +1,89 @@
+@import '../../assets/sass/Common.scss';
+
+.Menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 250px;
+
+    h3{
+        font-weight: $font-weight-light;
+        font-size: medium;
+    }
+
+    &-eachSection{
+        margin: 16px 0;
+    }
+
+    &-levelOptions
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-searchBar{
+        display: flex;
+        justify-content: center;
+        height: 24px;
+        margin: 24px 0;
+        height: 42px;
+        position: fixed;
+        width: 100%;
+        top: 100px;
+        left: 15%;
+        z-index: 9999;
+
+        input{
+            width: 100%;
+            height: 100%;
+            padding: 0 8px;
+            font-size: 16px;
+        }
+    }
+
+    &-itemsClasses
+    {
+        display: flex;
+        margin-right: 8px;
+    }
+
+    &-levelOptionsGallery{
+        display: flex;
+        justify-content: flex-start;
+        padding: 16px 0;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        min-height: 40px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    &-dishDoesNotExist
+    {
+        min-height: 50%vh ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    &-noResults{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        background-color: $gray-5;
+    }
+
+    &-levelOptions.Menu-eachSection{
+        background-color: white;
+    }
+}

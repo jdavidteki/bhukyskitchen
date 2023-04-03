@@ -1,0 +1,692 @@
+{
+    "jollofRice": {
+        "menuItem": "JOLLOF RICE",
+        "wrap": "",
+        "halfTray": "$50",
+        "fullTray": "$100",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "RICE DISHES"
+    },
+    "friedRice": {
+        "menuItem": "FRIED RICE",
+        "wrap": "",
+        "halfTray": "$60",
+        "fullTray": "$120",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "RICE DISHES"
+    },
+    "signatureLoadedRice": {
+        "menuItem": "SIGNATURE LOADED RICE",
+        "wrap": "",
+        "halfTray": "$120",
+        "fullTray": "$240",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "RICE DISHES"
+    },
+    "nativeRice": {
+        "menuItem": "NATIVE RICE",
+        "wrap": "",
+        "halfTray": "$120",
+        "fullTray": "$240",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "RICE DISHES"
+    },
+    "spicyAsunRice": {
+        "menuItem": "SPICY ASUN RICE",
+        "wrap": "",
+        "halfTray": "$120",
+        "fullTray": "$240",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "RICE DISHES"
+    },
+    "riceBeansMixed": {
+        "menuItem": "RICE&BEANS MIXED",
+        "wrap": "",
+        "halfTray": "$50",
+        "fullTray": "$100",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "RICE DISHES"
+    },
+    "whiteRice": {
+        "menuItem": "WHITE RICE",
+        "wrap": "",
+        "halfTray": "$30",
+        "fullTray": "$60",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "RICE DISHES"
+    },
+    "ofadaRice": {
+        "menuItem": "OFADA RICE",
+        "wrap": "",
+        "halfTray": "$40",
+        "fullTray": "$80",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "RICE DISHES"
+    },
+    "coconutRice": {
+        "menuItem": "COCONUT RICE",
+        "wrap": "",
+        "halfTray": "$120",
+        "fullTray": "$240",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "RICE DISHES"
+    },
+    "efoRiro": {
+        "menuItem": "EFO-RIRO",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "oha": {
+        "menuItem": "OHA",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "afang": {
+        "menuItem": "AFANG",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "whiteSoup": {
+        "menuItem": "WHITE SOUP",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "egusi": {
+        "menuItem": "EGUSI",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "okra": {
+        "menuItem": "OKRA",
+        "wrap": "",
+        "halfTray": "$140",
+        "fullTray": "$280",
+        "2LBowl": "$90",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "banga": {
+        "menuItem": "BANGA",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "ewedu": {
+        "menuItem": "EWEDU ",
+        "wrap": "",
+        "halfTray": "$50",
+        "fullTray": "$100",
+        "2LBowl": "$30",
+        "addInfo": "Jute leave",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "gbegiri": {
+        "menuItem": "GBEGIRI",
+        "wrap": "",
+        "halfTray": "$60",
+        "fullTray": "$120",
+        "2LBowl": "$40",
+        "addInfo": "Beans Soup",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "owoSoup": {
+        "menuItem": "OWO SOUP",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "ogbono": {
+        "menuItem": "OGBONO",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SOUPS"
+    },
+    "freshTilapia": {
+        "menuItem": "FRESH TILAPIA",
+        "wrap": "",
+        "halfTray": "$100",
+        "fullTray": "$200",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "STEWS"
+    },
+    "freshCatfish": {
+        "menuItem": "FRESH CATFISH",
+        "wrap": "",
+        "halfTray": "$120",
+        "fullTray": "$240",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "STEWS"
+    },
+    "ayamase": {
+        "menuItem": "AYAMASE",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "",
+        "addInfo": "Ofada sauce",
+        "available": "yes",
+        "category": "STEWS"
+    },
+    "ataDindin": {
+        "menuItem": "ATA DINDIN",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "STEWS"
+    },
+    "chickenStew": {
+        "menuItem": "CHICKEN STEW",
+        "wrap": "",
+        "halfTray": "$120",
+        "fullTray": "$240",
+        "2LBowl": "$80",
+        "addInfo": "",
+        "available": "yes",
+        "category": "STEWS"
+    },
+    "bukaStew": {
+        "menuItem": "BUKA STEW",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "STEWS"
+    },
+    "assortedMeatStew": {
+        "menuItem": "ASSORTED MEAT STEW",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "STEWS"
+    },
+    "ejaKikaKponmoStew": {
+        "menuItem": "EJA-kIKA & KPONMO STEW",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "STEWS"
+    },
+    "sauceWithSnailKponmoBeef": {
+        "menuItem": "SAUCE WITH SNAIL,KPONMO,BEEF",
+        "wrap": "",
+        "halfTray": "$200",
+        "fullTray": "$200",
+        "2LBowl": "$200",
+        "addInfo": "",
+        "available": "yes",
+        "category": "STEWS"
+    },
+    "catfish": {
+        "menuItem": "CATFISH",
+        "wrap": "",
+        "halfTray": "$65",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PEPPER SOUP"
+    },
+    "assortedMeat": {
+        "menuItem": "ASSORTED MEAT",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PEPPER SOUP"
+    },
+    "goatMeat": {
+        "menuItem": "GOAT MEAT",
+        "wrap": "",
+        "halfTray": "$120",
+        "fullTray": "$240",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PEPPER SOUP"
+    },
+    "tilapia": {
+        "menuItem": "TILAPIA",
+        "wrap": "",
+        "halfTray": "$60",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PEPPER SOUP"
+    },
+    "croaker": {
+        "menuItem": "CROAKER",
+        "wrap": "",
+        "halfTray": "2l bowl $65",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PEPPER SOUP"
+    },
+    "goatMeatTripe": {
+        "menuItem": "GOAT MEAT &TRIPE",
+        "wrap": "",
+        "halfTray": "$130",
+        "fullTray": "$260",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PEPPER SOUP"
+    },
+    "jollofSpaghetti": {
+        "menuItem": "JOLLOF SPAGHETTI",
+        "wrap": "",
+        "halfTray": "$60",
+        "fullTray": "$120",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SPAGHETTI & PASTA"
+    },
+    "coconutSpaghettiPasta": {
+        "menuItem": "COCONUT SPAGHETTI/PASTA",
+        "wrap": "",
+        "halfTray": "$80",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SPAGHETTI & PASTA"
+    },
+    "alfredoPastaShrimp": {
+        "menuItem": "ALFREDO PASTA SHRIMP",
+        "wrap": "",
+        "halfTray": "$120",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SPAGHETTI & PASTA"
+    },
+    "garlicButterPasta": {
+        "menuItem": "GARLIC & BUTTER PASTA",
+        "wrap": "",
+        "halfTray": "$80",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SPAGHETTI & PASTA"
+    },
+    "cajunPasta": {
+        "menuItem": "CAJUN PASTA",
+        "wrap": "",
+        "halfTray": "$100",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SPAGHETTI & PASTA"
+    },
+    "seafoodPasta": {
+        "menuItem": "SEAFOOD PASTA",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SPAGHETTI & PASTA"
+    },
+    "nativePasta": {
+        "menuItem": "NATIVE PASTA",
+        "wrap": "",
+        "halfTray": "$120",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SPAGHETTI & PASTA"
+    },
+    "stewedChicken": {
+        "menuItem": "STEWED CHICKEN",
+        "wrap": "",
+        "halfTray": "$90",
+        "fullTray": "$180",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "stewedDrumsticks": {
+        "menuItem": "STEWED DRUMSTICKS",
+        "wrap": "",
+        "halfTray": "$90",
+        "fullTray": "$180",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "stewedAssortedMeat": {
+        "menuItem": "STEWED ASSORTED MEAT",
+        "wrap": "",
+        "halfTray": "$170",
+        "fullTray": "$340",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "stewedTurkeyMix": {
+        "menuItem": "STEWED TURKEY MIX",
+        "wrap": "",
+        "halfTray": "$100",
+        "fullTray": "$200",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "pepperedTurkeyWings": {
+        "menuItem": "PEPPERED TURKEY WINGS",
+        "wrap": "",
+        "halfTray": "$10 per piece ",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "stewedCroakerTilapiaFish": {
+        "menuItem": "STEWED CROAKER / TILAPIA FISH",
+        "wrap": "",
+        "halfTray": "",
+        "fullTray": "$220",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "grilledCroakerTilapiaFish": {
+        "menuItem": "GRILLED CROAKER/ TILAPIA FISH",
+        "wrap": "",
+        "halfTray": "",
+        "fullTray": "$300",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "asun": {
+        "menuItem": "ASUN",
+        "wrap": "",
+        "halfTray": "$200",
+        "fullTray": "$400",
+        "2LBowl": "",
+        "addInfo": "Spicy Goat meat chunks",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "pepperedKponmo": {
+        "menuItem": "PEPPERED KPONMO",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "$100",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "stewedBeef": {
+        "menuItem": "STEWED BEEF",
+        "wrap": "",
+        "halfTray": "$150",
+        "fullTray": "$300",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "PROTEINS"
+    },
+    "moiMoi": {
+        "menuItem": "MOI MOI",
+        "wrap": "",
+        "halfTray": "$5 per wrap",
+        "fullTray": "$48 dozen ",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "EXTRAS/ ADD-ONS"
+    },
+    "nigerianSalad": {
+        "menuItem": "NIGERIAN SALAD",
+        "wrap": "",
+        "halfTray": "$60",
+        "fullTray": "$120",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "EXTRAS/ ADD-ONS"
+    },
+    "ewaGoyin": {
+        "menuItem": "EWA-GOYIN",
+        "wrap": "",
+        "halfTray": "$80",
+        "fullTray": "$160",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "EXTRAS/ ADD-ONS"
+    },
+    "stewedBeans": {
+        "menuItem": "STEWED BEANS",
+        "wrap": "",
+        "halfTray": "$60",
+        "fullTray": "$120",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "EXTRAS/ ADD-ONS"
+    },
+    "porridgeYam": {
+        "menuItem": "PORRIDGE YAM",
+        "wrap": "",
+        "halfTray": "$100",
+        "fullTray": "$200",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "EXTRAS/ ADD-ONS"
+    },
+    "snails": {
+        "menuItem": "SNAILS",
+        "wrap": "",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "SEASONAL",
+        "available": "yes",
+        "category": "EXTRAS/ ADD-ONS"
+    },
+    "friedPlantain": {
+        "menuItem": "FRIED PLANTAIN",
+        "wrap": "",
+        "halfTray": "$50",
+        "fullTray": "$120",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "EXTRAS/ ADD-ONS"
+    },
+    "roastedPlantainYam": {
+        "menuItem": "ROASTED PLANTAIN /YAM",
+        "wrap": "",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "SEASONAL",
+        "available": "yes",
+        "category": "EXTRAS/ ADD-ONS"
+    },
+    "gizzdodo": {
+        "menuItem": "GIZZDODO",
+        "wrap": "",
+        "halfTray": "$90",
+        "fullTray": "$180",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "EXTRAS/ ADD-ONS"
+    },
+    "amala": {
+        "menuItem": "AMALA",
+        "wrap": "$3",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SWALLOWS"
+    },
+    "poundoYam": {
+        "menuItem": "POUNDO YAM",
+        "wrap": "$4",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SWALLOWS"
+    },
+    "oat": {
+        "menuItem": "OAT",
+        "wrap": "$4",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SWALLOWS"
+    },
+    "wheat": {
+        "menuItem": "WHEAT",
+        "wrap": "$4",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SWALLOWS"
+    },
+    "eba": {
+        "menuItem": "EBA",
+        "wrap": "$3",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "",
+        "available": "yes",
+        "category": "SWALLOWS"
+    },
+    "chapman": {
+        "menuItem": "CHAPMAN",
+        "wrap": "$5",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "Minimum order of 4 bottles ",
+        "available": "yes",
+        "category": "DRINKS"
+    },
+    "zobo": {
+        "menuItem": "ZOBO",
+        "wrap": "$5",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "",
+        "addInfo": "$3 8ounce",
+        "available": "yes",
+        "category": "DRINKS"
+    },
+    "grilledTilapiaWithASideOfPlaintainOrYam": {
+        "menuItem": "GRILLED TILAPIA WITH A SIDE OF PLAINTAIN OR YAM",
+        "wrap": "",
+        "halfTray": "",
+        "fullTray": "",
+        "2LBowl": "$40",
+        "addInfo": "",
+        "available": "yes",
+        "category": ""
+    }
+}

@@ -146,5 +146,8 @@
 .Layout-footer {
   display: flex;
 }
+.Layout-header {
+  height: 85px;
+}
 
 /*# sourceMappingURL=Layout.css.map */

@@ -5,8 +5,10 @@ import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 import AudioPlayer from 'react-h5-audio-player';
 import cashappLogo from '../../assets/icons/cashappIcon.png';
-import { GetSelectedStatusLevelLabel, GetSelectedLevelOptionAmount } from "../../Helpers/Helpers.js";
 import FancyVideo from "react-videojs-fancybox";
+import {GetSelectedStatusLevelLabel} from '../../Helpers/Helpers.js'
+import Cart from '../../components/Cart/Cart.js'
+import Messages from '../../components/Messages/Messages.js'
 
 import 'react-h5-audio-player/lib/styles.css';
 import "./Orders.css";
@@ -21,11 +23,17 @@ class ConnectedOrders extends Component {
       id: "",
       igname: "",
       lastName: "",
-      reelDuration: "",
-      reelPurpose: "",
-      reelSampleLink: "",
-      selectedLevelOption: "",
+      briefNote: "",
     };
+  }
+
+  updateOrdersTotal() {
+    // Find the cart items' total value
+    const cartItemTotal = document.querySelector('.cart__total__cost').innerText;
+    
+    // Fill the Orders-total div with the cart items' total value
+    const ordersTotalDiv = document.querySelector('#Orders-total');
+    ordersTotalDiv.innerText = cartItemTotal;
   }
 
   componentDidMount() {
@@ -38,16 +46,16 @@ class ConnectedOrders extends Component {
             firstName: val.firstName,
             igname: val.igname,
             lastName: val.lastName,
-            reelDuration: val.reelDuration,
-            reelPurpose: val.reelPurpose,
-            reelSampleLink: val.reelSampleLink,
-            selectedLevelOption: val.selectedLevelOption,
+            briefNote: val.briefNote,
             statusValue: val.statusValue,
             statusLabel: GetSelectedStatusLevelLabel(val.statusValue),
             dueDateSelected: val.dueDateSelected,
             orderAudioURL: val.orderAudioURL,
-            snippetVideoURL: val.snippetVideoURL
+            snippetVideoURL: val.snippetVideoURL,
+            cart: val.cart
           });
+        }).then(() => {
+          this.updateOrdersTotal();
         });
       }
     }
@@ -92,13 +100,11 @@ class ConnectedOrders extends Component {
                 <div className="Orders-orderThings-bottom">. .</div>
               </div>
               <div className="Orders-orderThings">
-                <div className="Orders-orderThings-top">Pricing Selected</div>
-                <div className="Orders-orderThings-mid">
-                  {this.state.selectedLevelOption}
+                <div className="Orders-orderThings-top">Total: </div>
+                <div id="Orders-total" className="Orders-orderThings-bottom">
+                  {/* //js will fill this in */}
                 </div>
-                <div className="Orders-orderThings-bottom">
-                  ${GetSelectedLevelOptionAmount(this.state.selectedLevelOption)}
-                </div>
+                <div className="Orders-orderThings-bottom">. .</div>
               </div>
             </div>
           </div>
@@ -123,23 +129,15 @@ class ConnectedOrders extends Component {
                 <div className="Orders-infoCard-infoDetails">{this.state.igname}</div>
               </div>
             )}
-            {this.state.reelDuration && (
-              <div className="Orders-infoCard">
-                <div className="Orders-infoCard-title">Reel Duration</div>
-                <div className="Orders-infoCard-infoDetails">{this.state.reelDuration}</div>
-              </div>
-            )}
-            {this.state.reelPurpose && (
-              <div className="Orders-infoCard">
-                <div className="Orders-infoCard-title">Add-Ons</div>
-                <div className="Orders-infoCard-infoDetails">{this.state.reelPurpose}</div>
-              </div>
-            )}
-            {this.state.reelSampleLink && (
-              <div className="Orders-infoCard Orders-reelSampleLink" onClick={() => location.href = this.state.reelSampleLink}>
-                <div className="Orders-infoCard-title">Reel Sample Link</div>
+            <div className="Orders-infoCard">
+              <div className="Orders-infoCard-title">Order</div>
+              <Cart fromOrderComponent={true} cart={this.state.cart ? JSON.parse(this.state.cart) : {}} /> 
+            </div>
+            {this.state.statusLabel && (
+              <div className="Orders-infoCard Orders-statusValue" onClick={() => location.href = this.state.briefNote}>
+                <div className="Orders-infoCard-title">Order Status</div>
                 <div className="Orders-infoCard-infoDetails">
-                  {this.state.reelSampleLink}
+                  {this.state.statusLabel}
                 </div>
               </div>
             )}
@@ -155,11 +153,14 @@ class ConnectedOrders extends Component {
                 </div>
               </div>
             )}
-            <div className="Orders-infoCard Orders-cashApp" onClick={() => location.href = `https://cash.app/$bhukyskitchen/${GetSelectedLevelOptionAmount(this.state.selectedLevelOption)}`}>
+            <div className="Orders-infoCard Orders-cashApp" onClick={() => location.href = `https://cash.app/$bhukyskitchen/`}>
               <div className="Orders-infoCard-title">Make Payment</div>
               <div className="Orders-infoDetails">
                 <img className="Orders-cashApp-Logo" src={cashappLogo} alt="cashapp.logo"/>
               </div>
+            </div>
+            <div className="Orders-infoCard">
+              <Messages orderId={this.state.id} fromCustomer={true} />
             </div>
           </div>
         </div>

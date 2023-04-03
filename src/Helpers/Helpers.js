@@ -106,4 +106,10 @@ export function HmsToSecondsOnly(totalSecs) {
     }
 
     return s *1000 + ((parseInt(totalSecs.substr(6, 9), 10))/100);
-  }
+}
+
+export function ToCamelCase(s) {
+    s = s.trim().toLowerCase().replace(/[\W_]+(\w|$)/g, (m, p1) => p1.toUpperCase());
+    return s[0].toLowerCase() + s.slice(1);
+}
+   

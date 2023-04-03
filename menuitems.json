@@ -1,0 +1,623 @@
+[
+ {
+   "MENU ITEM": "JOLLOF RICE",
+   "WRAP": "",
+   "HALF TRAY": "$50",
+   "FULL TRAY": "$100",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "RICE DISHES"
+ },
+ {
+   "MENU ITEM": "FRIED RICE",
+   "WRAP": "",
+   "HALF TRAY": "$60",
+   "FULL TRAY": "$120",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "RICE DISHES"
+ },
+ {
+   "MENU ITEM": "SIGNATURE LOADED RICE",
+   "WRAP": "",
+   "HALF TRAY": "$120",
+   "FULL TRAY": "$240",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "RICE DISHES"
+ },
+ {
+   "MENU ITEM": "NATIVE RICE",
+   "WRAP": "",
+   "HALF TRAY": "$120",
+   "FULL TRAY": "$240",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "RICE DISHES"
+ },
+ {
+   "MENU ITEM": "SPICY ASUN RICE",
+   "WRAP": "",
+   "HALF TRAY": "$120",
+   "FULL TRAY": "$240",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "RICE DISHES"
+ },
+ {
+   "MENU ITEM": "RICE&BEANS MIXED",
+   "WRAP": "",
+   "HALF TRAY": "$50",
+   "FULL TRAY": "$100",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "RICE DISHES"
+ },
+ {
+   "MENU ITEM": "WHITE RICE",
+   "WRAP": "",
+   "HALF TRAY": "$30",
+   "FULL TRAY": "$60",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "RICE DISHES"
+ },
+ {
+   "MENU ITEM": "OFADA RICE",
+   "WRAP": "",
+   "HALF TRAY": "$40",
+   "FULL TRAY": "$80",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "RICE DISHES"
+ },
+ {
+   "MENU ITEM": "COCONUT RICE",
+   "WRAP": "",
+   "HALF TRAY": "$120",
+   "FULL TRAY": "$240",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "RICE DISHES"
+ },
+ {
+   "MENU ITEM": "EFO-RIRO",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "OHA",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "AFANG",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "WHITE SOUP",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "EGUSI",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "OKRA",
+   "WRAP": "",
+   "HALF TRAY": "$140",
+   "FULL TRAY": "$280",
+   "2L BOWL": "$90",
+   "ADD INFO": "",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "BANGA",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "EWEDU ",
+   "WRAP": "",
+   "HALF TRAY": "$50",
+   "FULL TRAY": "$100",
+   "2L BOWL": "$30",
+   "ADD INFO": "Jute leave",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "GBEGIRI",
+   "WRAP": "",
+   "HALF TRAY": "$60",
+   "FULL TRAY": "$120",
+   "2L BOWL": "$40",
+   "ADD INFO": "Beans Soup",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "OWO SOUP",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "OGBONO",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "SOUPS"
+ },
+ {
+   "MENU ITEM": "FRESH TILAPIA",
+   "WRAP": "",
+   "HALF TRAY": "$100",
+   "FULL TRAY": "$200",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "STEWS"
+ },
+ {
+   "MENU ITEM": "FRESH CATFISH",
+   "WRAP": "",
+   "HALF TRAY": "$120",
+   "FULL TRAY": "$240",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "STEWS"
+ },
+ {
+   "MENU ITEM": "AYAMASE",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "",
+   "ADD INFO": "Ofada sauce",
+   "CATEGORY": "STEWS"
+ },
+ {
+   "MENU ITEM": "ATA DINDIN",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "STEWS"
+ },
+ {
+   "MENU ITEM": "CHICKEN STEW",
+   "WRAP": "",
+   "HALF TRAY": "$120",
+   "FULL TRAY": "$240",
+   "2L BOWL": "$80",
+   "ADD INFO": "",
+   "CATEGORY": "STEWS"
+ },
+ {
+   "MENU ITEM": "BUKA STEW",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "STEWS"
+ },
+ {
+   "MENU ITEM": "ASSORTED MEAT STEW",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "STEWS"
+ },
+ {
+   "MENU ITEM": "EJA-kIKA & KPONMO STEW",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "STEWS"
+ },
+ {
+   "MENU ITEM": "SAUCE WITH SNAIL,KPONMO,BEEF",
+   "WRAP": "",
+   "HALF TRAY": "$200",
+   "FULL TRAY": "$200",
+   "2L BOWL": "$200",
+   "ADD INFO": "",
+   "CATEGORY": "STEWS"
+ },
+ {
+   "MENU ITEM": "CATFISH",
+   "WRAP": "",
+   "HALF TRAY": "$65",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PEPPER SOUP"
+ },
+ {
+   "MENU ITEM": "ASSORTED MEAT",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PEPPER SOUP"
+ },
+ {
+   "MENU ITEM": "GOAT MEAT",
+   "WRAP": "",
+   "HALF TRAY": "$120",
+   "FULL TRAY": "$240",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PEPPER SOUP"
+ },
+ {
+   "MENU ITEM": "TILAPIA",
+   "WRAP": "",
+   "HALF TRAY": "$60",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PEPPER SOUP"
+ },
+ {
+   "MENU ITEM": "CROAKER",
+   "WRAP": "",
+   "HALF TRAY": "2l bowl $65",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PEPPER SOUP"
+ },
+ {
+   "MENU ITEM": "GOAT MEAT &TRIPE",
+   "WRAP": "",
+   "HALF TRAY": "$130",
+   "FULL TRAY": "$260",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PEPPER SOUP"
+ },
+ {
+   "MENU ITEM": "JOLLOF SPAGHETTI",
+   "WRAP": "",
+   "HALF TRAY": "$60",
+   "FULL TRAY": "$120",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SPAGHETTI & PASTA"
+ },
+ {
+   "MENU ITEM": "COCONUT SPAGHETTI/PASTA",
+   "WRAP": "",
+   "HALF TRAY": "$80",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SPAGHETTI & PASTA"
+ },
+ {
+   "MENU ITEM": "ALFREDO PASTA SHRIMP",
+   "WRAP": "",
+   "HALF TRAY": "$120",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SPAGHETTI & PASTA"
+ },
+ {
+   "MENU ITEM": "GARLIC & BUTTER PASTA",
+   "WRAP": "",
+   "HALF TRAY": "$80",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SPAGHETTI & PASTA"
+ },
+ {
+   "MENU ITEM": "CAJUN PASTA",
+   "WRAP": "",
+   "HALF TRAY": "$100",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SPAGHETTI & PASTA"
+ },
+ {
+   "MENU ITEM": "SEAFOOD PASTA",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SPAGHETTI & PASTA"
+ },
+ {
+   "MENU ITEM": "NATIVE PASTA",
+   "WRAP": "",
+   "HALF TRAY": "$120",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SPAGHETTI & PASTA"
+ },
+ {
+   "MENU ITEM": "STEWED CHICKEN",
+   "WRAP": "",
+   "HALF TRAY": "$90",
+   "FULL TRAY": "$180",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "STEWED DRUMSTICKS",
+   "WRAP": "",
+   "HALF TRAY": "$90",
+   "FULL TRAY": "$180",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "STEWED ASSORTED MEAT",
+   "WRAP": "",
+   "HALF TRAY": "$170",
+   "FULL TRAY": "$340",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "STEWED TURKEY MIX",
+   "WRAP": "",
+   "HALF TRAY": "$100",
+   "FULL TRAY": "$200",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "PEPPERED TURKEY WINGS",
+   "WRAP": "",
+   "HALF TRAY": "$10 per piece ",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "STEWED CROAKER / TILAPIA FISH",
+   "WRAP": "",
+   "HALF TRAY": "",
+   "FULL TRAY": "$220",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "GRILLED CROAKER/ TILAPIA FISH",
+   "WRAP": "",
+   "HALF TRAY": "",
+   "FULL TRAY": "$300",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "ASUN",
+   "WRAP": "",
+   "HALF TRAY": "$200",
+   "FULL TRAY": "$400",
+   "2L BOWL": "",
+   "ADD INFO": "Spicy Goat meat chunks",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "PEPPERED KPONMO",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "$100",
+   "ADD INFO": "",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "STEWED BEEF",
+   "WRAP": "",
+   "HALF TRAY": "$150",
+   "FULL TRAY": "$300",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "PROTEINS"
+ },
+ {
+   "MENU ITEM": "MOI MOI",
+   "WRAP": "",
+   "HALF TRAY": "$5 per wrap",
+   "FULL TRAY": "$48 dozen ",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "EXTRAS/ ADD-ONS"
+ },
+ {
+   "MENU ITEM": "NIGERIAN SALAD",
+   "WRAP": "",
+   "HALF TRAY": "$60",
+   "FULL TRAY": "$120",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "EXTRAS/ ADD-ONS"
+ },
+ {
+   "MENU ITEM": "EWA-GOYIN",
+   "WRAP": "",
+   "HALF TRAY": "$80",
+   "FULL TRAY": "$160",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "EXTRAS/ ADD-ONS"
+ },
+ {
+   "MENU ITEM": "STEWED BEANS",
+   "WRAP": "",
+   "HALF TRAY": "$60",
+   "FULL TRAY": "$120",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "EXTRAS/ ADD-ONS"
+ },
+ {
+   "MENU ITEM": "PORRIDGE YAM",
+   "WRAP": "",
+   "HALF TRAY": "$100",
+   "FULL TRAY": "$200",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "EXTRAS/ ADD-ONS"
+ },
+ {
+   "MENU ITEM": "SNAILS",
+   "WRAP": "",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "SEASONAL",
+   "CATEGORY": "EXTRAS/ ADD-ONS"
+ },
+ {
+   "MENU ITEM": "FRIED PLANTAIN",
+   "WRAP": "",
+   "HALF TRAY": "$50",
+   "FULL TRAY": "$120",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "EXTRAS/ ADD-ONS"
+ },
+ {
+   "MENU ITEM": "ROASTED PLANTAIN /YAM",
+   "WRAP": "",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "SEASONAL",
+   "CATEGORY": "EXTRAS/ ADD-ONS"
+ },
+ {
+   "MENU ITEM": "GIZZDODO",
+   "WRAP": "",
+   "HALF TRAY": "$90",
+   "FULL TRAY": "$180",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "EXTRAS/ ADD-ONS"
+ },
+ {
+   "MENU ITEM": "AMALA",
+   "WRAP": "$3",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SWALLOWS"
+ },
+ {
+   "MENU ITEM": "POUNDO YAM",
+   "WRAP": "$4",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SWALLOWS"
+ },
+ {
+   "MENU ITEM": "OAT",
+   "WRAP": "$4",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SWALLOWS"
+ },
+ {
+   "MENU ITEM": "WHEAT",
+   "WRAP": "$4",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SWALLOWS"
+ },
+ {
+   "MENU ITEM": "EBA",
+   "WRAP": "$3",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "",
+   "CATEGORY": "SWALLOWS"
+ },
+ {
+   "MENU ITEM": "CHAPMAN",
+   "WRAP": "$5",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "Minimum order of 4 bottles ",
+   "CATEGORY": "DRINKS"
+ },
+ {
+   "MENU ITEM": "ZOBO",
+   "WRAP": "$5",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "",
+   "ADD INFO": "$3 8ounce",
+   "CATEGORY": "DRINKS"
+ },
+ {
+   "MENU ITEM": "GRILLED TILAPIA WITH A SIDE OF PLAINTAIN OR YAM",
+   "WRAP": "",
+   "HALF TRAY": "",
+   "FULL TRAY": "",
+   "2L BOWL": "$40",
+   "ADD INFO": "",
+   "CATEGORY": ""
+ }
+]

@@ -140,11 +140,18 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #f1c87c;
 }
 .Admin-table {
   padding: 20px;
   overflow-x: scroll;
+}
+.Admin-container {
+  margin: 24px 0;
+}
+.Admin-messageClient {
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 8px;
 }
 
 .MuiButton-label {

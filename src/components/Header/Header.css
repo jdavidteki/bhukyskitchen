@@ -137,40 +137,13 @@
 
 .Header {
   display: flex;
+  position: fixed;
   z-index: 9999;
   justify-content: space-between;
   padding: 16px 12px;
   border-bottom: 1px solid #999;
-}
-@media (min-width: 768px) {
-  .Header {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    width: auto;
-  }
-}
-@media (min-width: 768px) and (min-width: 768px) {
-  .Header {
-    width: 768px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-@media (min-width: 768px) and (min-width: 992px) {
-  .Header {
-    width: 992px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-@media (min-width: 768px) and (min-width: 1200px) {
-  .Header {
-    width: 1170px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+  background-color: white;
+  width: 100%;
 }
 .Header-logo {
   border-radius: 50%;

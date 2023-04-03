@@ -12,11 +12,34 @@
   flex-direction: column;
   height: 100%;
 
+  .cart
+  {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .cart__header
+  {
+    border-left: 0;
+  }
+
+  .cart__items
+  {
+    top: 61%;
+  }
+
+  .cart__items--visible
+  {
+    background-color: $gray-5;
+  }
+
   &-header {
     border-bottom: $border-1;
   }
 
-  &-reelSampleLink
+  &-briefNote
   {
     cursor: pointer;
   }
@@ -78,6 +101,11 @@
       object-fit: cover;
       height: 100%;
       width: 100%;
+      border-radius: 4px;
+
+      &:hover{
+        opacity: 0.8;
+      }
     }
   }
 
@@ -86,12 +114,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 24px;
-
-
-    @include bpgte(sm)
-    {
-      max-height: 300px;
-    }
   }
 
   &-infoCard {
